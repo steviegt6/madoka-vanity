@@ -1,0 +1,23 @@
+﻿{
+    "Mods": {
+        "MadokaVanity": {
+            "ItemName": {
+                BrazenBlueHairpin:   "Brazen Blue Hairpin",
+                BrazenBlueDress:     "Brazen Blue Dress",
+                BrazenBlueStockings: "Brazen Blue Stockings",
+
+                PrimPurpleHeadband:   "Prim Purple Headband",
+                PrimPurpleDress:      "Prim Purple Dress",
+                PrimPurpleLeggings:   "Prim Purple Leggings",
+
+                RiotRedBow:       "Riot Red Bow",
+                RiotRedDress:     "Riot Red Dress",
+                RiotRedLeggings:  "Riot Red Leggings",
+
+                YummyYellowHat:       "Yummy Yellow Hat",
+                YummyYellowDress:     "Yummy Yellow Dress",
+                YummyYellowBoots:     "Yummy Yellow Boots",
+            }
+        }
+    }
+}
