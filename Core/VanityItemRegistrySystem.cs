@@ -16,7 +16,7 @@ public sealed class VanityItemRegistrySystem : ModSystem
     private const string yummy_yellow = "YummyYellow";
 
     private const string hairpin   = "Hairpin";
-    private const string dress     = "dress";
+    private const string dress     = "Dress";
     private const string stockings = "Stockings";
     private const string headband  = "Headband";
     private const string leggings  = "Leggings";

@@ -11,12 +11,20 @@ public sealed class VanityItem : ModItem
 
     public override string Texture { get; }
 
-    private readonly Action<Item> setDefaults;
+    protected override bool CloneNewInstances => true;
+
+    private Action<Item> setDefaults;
 
     public VanityItem(string name, string texture, Action<Item> setDefaults) {
         Name             = name;
         Texture          = texture;
         this.setDefaults = setDefaults;
+    }
+
+    public override ModItem Clone(Item newEntity) {
+        var clone = (VanityItem) base.Clone(newEntity);
+        clone.setDefaults = setDefaults;
+        return clone;
     }
 
     public override void SetStaticDefaults() {
